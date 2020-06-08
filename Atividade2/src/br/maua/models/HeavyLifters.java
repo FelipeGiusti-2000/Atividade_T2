@@ -5,8 +5,8 @@ import br.maua.enums.TipoDeMembros;
 
 public class HeavyLifters extends Membro{
 
-    public HeavyLifters(TipoDeMembros tipoDoMembro, String nome) {
-        super(tipoDoMembro, nome);
+    public HeavyLifters(String nome, String email, TipoDeMembros funcao) {
+        super(nome, email, funcao);
     }
 
 }

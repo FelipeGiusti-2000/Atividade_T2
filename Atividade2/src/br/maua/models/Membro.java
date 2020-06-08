@@ -13,4 +13,6 @@ public abstract class Membro implements PostarMensagem {
         this.email = email;
         this.funcao = funcao;
     }
+
+
 }
