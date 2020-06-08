@@ -1,5 +1,6 @@
 package br.maua.interfaces;
 
 public interface PostarMensagem {
-    String mensagem();
+    String mensagemRegular();
+    String mensagemExtra();
 }
