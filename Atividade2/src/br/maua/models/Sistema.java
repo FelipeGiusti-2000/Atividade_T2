@@ -4,6 +4,13 @@ import br.maua.enums.Horarios;
 
 import java.util.ArrayList;
 
+/**
+ * Classe onde fica o gerenciamento de membro e horario.
+ * @author Felipe Felde Giusti, José Guilherme Martins dos santos - felipe.giusti2000@gmail.com , josegms2000@gmail.com
+ * @since 08/06/2020
+ * @version 1.0
+ */
+
 public class Sistema {
     private Horarios horario;
     private ArrayList<Membro> membros;
@@ -26,6 +33,10 @@ public class Sistema {
             this.horario = Horarios.EXTRA;
         }
         else this.horario = Horarios.REGULAR;
+    }
+
+    public void MensagemFinal(){
+
     }
 
     public void adicionarMembro(Membro membro){
